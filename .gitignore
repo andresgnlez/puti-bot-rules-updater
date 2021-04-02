@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# text editors
+.vscode*
+
+# vendors
+/node_modules
+
+# logs
+*.log*
+
+# envs
+.env
+
+
+src/rules.js
+

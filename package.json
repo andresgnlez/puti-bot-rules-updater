@@ -1,0 +1,15 @@
+{
+  "name": "@puti/rules-updater",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "Andrés González <andres.gnlez@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^8.2.0"
+  },
+  "scripts": {
+    "publish-rules": "node src/index",
+    "test-rules": "NODE_ENV=test node src/index"
+  }
+}
